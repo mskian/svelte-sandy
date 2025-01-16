@@ -1,0 +1,25 @@
+name: Build and Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step to check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+
+      # Custom action to prepare the environment
+      - name: Prepare environment
+        uses: ./.github/actions/prepare
+
+      # Step to build the site using pnpm
+      - name: Build site with pnpm
+        run: |
+          pnpm generate
+          pnpm build

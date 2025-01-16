@@ -1,0 +1,32 @@
+name: Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+
+      # Prepare environment
+      - name: Prepare environment
+        uses: ./.github/actions/prepare
+
+      # Build the site using pnpm
+      - name: Use pnpm to build site
+        run: |
+          pnpm generate
+          pnpm build
+
+      # Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3.13.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy build --project-name=santhoshkumar --commit-dirty=true
