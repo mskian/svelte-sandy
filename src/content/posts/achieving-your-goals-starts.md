@@ -1,6 +1,6 @@
 ---
 title: "Starts with clear actionable steps"
-date: "2026-01-15"
+date: "2025-01-15"
 description: "Achieving your goals starts with clear actionable steps.To manage tasks efficiently, break them down into smaller, manageable chunks."
 ---
 

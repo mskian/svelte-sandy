@@ -1,6 +1,6 @@
 ---
 title: "Today is another chance to grow"
-date: "2026-01-15"
+date: "2025-01-15"
 description: "Today is another chance to grow, to learn, and to achieve. Start your day with purpose."
 ---
 
