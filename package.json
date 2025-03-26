@@ -18,7 +18,7 @@
 		"prettier": "^3.5.3",
 		"prettier-plugin-svelte": "^3.3.3",
 		"svelte": "^5.23.2",
-		"vite": "^6.2.2"
+		"vite": "^6.2.3"
 	},
 	"dependencies": {
 		"gray-matter": "^4.0.3",
