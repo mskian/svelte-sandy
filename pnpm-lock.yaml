@@ -20,13 +20,13 @@ importers:
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: ^3.0.8
-        version: 3.0.8(@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2))(svelte@5.27.2)(vite@6.3.2))
+        version: 3.0.8(@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3))(svelte@5.27.2)(vite@6.3.3))
       '@sveltejs/kit':
         specifier: ^2.20.7
-        version: 2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2))(svelte@5.27.2)(vite@6.3.2)
+        version: 2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3))(svelte@5.27.2)(vite@6.3.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.3
-        version: 5.0.3(svelte@5.27.2)(vite@6.3.2)
+        version: 5.0.3(svelte@5.27.2)(vite@6.3.3)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -37,8 +37,8 @@ importers:
         specifier: ^5.27.2
         version: 5.27.2
       vite:
-        specifier: ^6.3.2
-        version: 6.3.2
+        specifier: ^6.3.3
+        version: 6.3.3
 
 packages:
 
@@ -438,8 +438,8 @@ packages:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
     engines: {node: '>=0.10.0'}
 
-  fdir@6.4.3:
-    resolution: {integrity: sha512-PMXmW2y1hDDfTSRc9gaXIuCCRpuoz3Kaz8cUelp3smouvfT632ozg2vrT6lJsHKKOF59YLbOGfAWGUcKEfRMQw==}
+  fdir@6.4.4:
+    resolution: {integrity: sha512-1NZP+GK4GfuAv3PqKvxQRDMjdSRZjnkq7KfhlNrCNNlZ0ygQFpebfrnfnq/W7fpUnAv9aGWmY1zKx7FYL3gwhg==}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -574,16 +574,16 @@ packages:
     resolution: {integrity: sha512-WQigWAJSONxMfIYFBnnKXf5s+TcXbktLsZ+HMLfjhjSHOW9C0OV9TmPPTxVdbxs5tuiS8iQecCxLTHpdgWwgiA==}
     engines: {node: '>=18'}
 
-  tinyglobby@0.2.12:
-    resolution: {integrity: sha512-qkf4trmKSIiMTs/E63cxH+ojC2unam7rJ0WrauAzpT3ECNTxGRMlaXxVbfxMUC/w0LaYk6jQ4y/nGR9uBO3tww==}
+  tinyglobby@0.2.13:
+    resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
     engines: {node: '>=12.0.0'}
 
   totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  vite@6.3.2:
-    resolution: {integrity: sha512-ZSvGOXKGceizRQIZSz7TGJ0pS3QLlVY/9hwxVh17W3re67je1RKYzFHivZ/t0tubU78Vkyb9WnHPENSBCzbckg==}
+  vite@6.3.3:
+    resolution: {integrity: sha512-5nXH+QsELbFKhsEfWLkHrvgRpTdGJzqOZ+utSdmPTvwHmvU6ITTm3xx+mRusihkcI8GeC7lCDyn3kDtiki9scw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -798,13 +798,13 @@ snapshots:
     dependencies:
       acorn: 8.14.0
 
-  '@sveltejs/adapter-static@3.0.8(@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2))(svelte@5.27.2)(vite@6.3.2))':
+  '@sveltejs/adapter-static@3.0.8(@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3))(svelte@5.27.2)(vite@6.3.3))':
     dependencies:
-      '@sveltejs/kit': 2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2))(svelte@5.27.2)(vite@6.3.2)
+      '@sveltejs/kit': 2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3))(svelte@5.27.2)(vite@6.3.3)
 
-  '@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2))(svelte@5.27.2)(vite@6.3.2)':
+  '@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3))(svelte@5.27.2)(vite@6.3.3)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.27.2)(vite@6.3.2)
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.27.2)(vite@6.3.3)
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 5.1.1
@@ -817,27 +817,27 @@ snapshots:
       set-cookie-parser: 2.7.1
       sirv: 3.0.0
       svelte: 5.27.2
-      vite: 6.3.2
+      vite: 6.3.3
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2))(svelte@5.27.2)(vite@6.3.2)':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3))(svelte@5.27.2)(vite@6.3.3)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.27.2)(vite@6.3.2)
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.27.2)(vite@6.3.3)
       debug: 4.4.0
       svelte: 5.27.2
-      vite: 6.3.2
+      vite: 6.3.3
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2)':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.2))(svelte@5.27.2)(vite@6.3.2)
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.27.2)(vite@6.3.3))(svelte@5.27.2)(vite@6.3.3)
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
       svelte: 5.27.2
-      vite: 6.3.2
-      vitefu: 1.0.5(vite@6.3.2)
+      vite: 6.3.3
+      vitefu: 1.0.5(vite@6.3.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -929,7 +929,7 @@ snapshots:
     dependencies:
       is-extendable: 0.1.1
 
-  fdir@6.4.3(picomatch@4.0.2):
+  fdir@6.4.4(picomatch@4.0.2):
     optionalDependencies:
       picomatch: 4.0.2
 
@@ -1079,26 +1079,26 @@ snapshots:
       magic-string: 0.30.17
       zimmerframe: 1.1.2
 
-  tinyglobby@0.2.12:
+  tinyglobby@0.2.13:
     dependencies:
-      fdir: 6.4.3(picomatch@4.0.2)
+      fdir: 6.4.4(picomatch@4.0.2)
       picomatch: 4.0.2
 
   totalist@3.0.1: {}
 
-  vite@6.3.2:
+  vite@6.3.3:
     dependencies:
       esbuild: 0.25.0
-      fdir: 6.4.3(picomatch@4.0.2)
+      fdir: 6.4.4(picomatch@4.0.2)
       picomatch: 4.0.2
       postcss: 8.5.3
       rollup: 4.40.0
-      tinyglobby: 0.2.12
+      tinyglobby: 0.2.13
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@1.0.5(vite@6.3.2):
+  vitefu@1.0.5(vite@6.3.3):
     optionalDependencies:
-      vite: 6.3.2
+      vite: 6.3.3
 
   zimmerframe@1.1.2: {}
