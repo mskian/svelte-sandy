@@ -12,8 +12,8 @@ importers:
         specifier: ^4.0.3
         version: 4.0.3
       marked:
-        specifier: ^15.0.10
-        version: 15.0.10
+        specifier: ^15.0.11
+        version: 15.0.11
       sanitize-html:
         specifier: ^2.16.0
         version: 2.16.0
@@ -490,8 +490,8 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
-  marked@15.0.10:
-    resolution: {integrity: sha512-BXzsfFiR2UqXFKRwpugWuCYi9mWd1aX/Yns/X52xWfvfen9lnGEDbJw9ZEjjvLZVqntqT2gX45eYvqb2dIokDw==}
+  marked@15.0.11:
+    resolution: {integrity: sha512-1BEXAU2euRCG3xwgLVT1y0xbJEld1XOrmRJpUwRCcy7rxhSCwMrmEu9LXoPhHSCJG41V7YcQ2mjKRr5BA3ITIA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -975,7 +975,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  marked@15.0.10: {}
+  marked@15.0.11: {}
 
   mri@1.2.0: {}
 
