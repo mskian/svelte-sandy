@@ -12,7 +12,7 @@ jobs:
     steps:
       # Step to check out the repository
       - name: Checkout repository
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v5.0.1
 
       # Custom action to prepare the environment
       - name: Prepare environment
