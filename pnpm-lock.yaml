@@ -20,22 +20,22 @@ importers:
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
-        version: 3.0.10(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7))(svelte@5.57.2)(vite@7.3.7))
+        version: 3.0.10(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7))(svelte@5.57.3)(vite@7.3.7))
       '@sveltejs/kit':
         specifier: ^2.70.3
-        version: 2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7))(svelte@5.57.2)(vite@7.3.7)
+        version: 2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7))(svelte@5.57.3)(vite@7.3.7)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.4
-        version: 6.2.4(svelte@5.57.2)(vite@7.3.7)
+        version: 6.2.4(svelte@5.57.3)(vite@7.3.7)
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
       prettier-plugin-svelte:
         specifier: ^3.5.2
-        version: 3.5.2(prettier@3.9.10)(svelte@5.57.2)
+        version: 3.5.2(prettier@3.9.10)(svelte@5.57.3)
       svelte:
-        specifier: ^5.57.2
-        version: 5.57.2
+        specifier: ^5.57.3
+        version: 5.57.3
       vite:
         specifier: ^7.3.7
         version: 7.3.7
@@ -637,8 +637,8 @@ packages:
     resolution: {integrity: sha512-uCC2VHvQRYu+lMh4My/sFNmF2klFymLX1wHJeXnbEJERpV/ZsVuonzerjfrGpIGF7LBVa1O7i9kjiWvJiFck8g==}
     engines: {node: '>=0.10.0'}
 
-  svelte@5.57.2:
-    resolution: {integrity: sha512-1YiPCAXT0Ct6g1vOMmSLa0Nsc3QRMvtDF32ihgglGVrugIuIK38RyDiFNXVDhtQ81TJjSO57NdMw6DyYLqSGDQ==}
+  svelte@5.57.3:
+    resolution: {integrity: sha512-5mAftM3SoDV9X0zdF386F9p2pv8iKOwi/KfBS1XnBAkVCKFzVOLHUoa8iGWAt4buoicLmyWVRpuuD5wplXOQsg==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.15:
@@ -783,7 +783,7 @@ snapshots:
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
       '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
       '@jridgewell/trace-mapping': 0.3.25
 
   '@jridgewell/remapping@2.3.5':
@@ -802,7 +802,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   '@polka/url@1.0.0-next.28': {}
 
@@ -876,15 +876,15 @@ snapshots:
     dependencies:
       acorn: 8.19.0
 
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7))(svelte@5.57.2)(vite@7.3.7))':
+  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7))(svelte@5.57.3)(vite@7.3.7))':
     dependencies:
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7))(svelte@5.57.2)(vite@7.3.7)
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7))(svelte@5.57.3)(vite@7.3.7)
 
-  '@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7))(svelte@5.57.2)(vite@7.3.7)':
+  '@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7))(svelte@5.57.3)(vite@7.3.7)':
     dependencies:
       '@standard-schema/spec': 1.0.0
       '@sveltejs/acorn-typescript': 1.0.10(acorn@8.16.0)
-      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.57.2)(vite@7.3.7)
+      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.57.3)(vite@7.3.7)
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.6.0
@@ -895,25 +895,25 @@ snapshots:
       mrmime: 2.0.0
       set-cookie-parser: 3.0.1
       sirv: 3.0.0
-      svelte: 5.57.2
+      svelte: 5.57.3
       vite: 7.3.7
 
-  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7))(svelte@5.57.2)(vite@7.3.7)':
+  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7))(svelte@5.57.3)(vite@7.3.7)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.57.2)(vite@7.3.7)
+      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.57.3)(vite@7.3.7)
       debug: 4.4.1
-      svelte: 5.57.2
+      svelte: 5.57.3
       vite: 7.3.7
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7)':
+  '@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.2)(vite@7.3.7))(svelte@5.57.2)(vite@7.3.7)
+      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.57.3)(vite@7.3.7))(svelte@5.57.3)(vite@7.3.7)
       deepmerge: 4.3.1
       magic-string: 0.30.21
       obug: 2.1.1
-      svelte: 5.57.2
+      svelte: 5.57.3
       vite: 7.3.7
       vitefu: 1.1.1(vite@7.3.7)
     transitivePeerDependencies:
@@ -1010,7 +1010,7 @@ snapshots:
 
   esrap@2.4.0:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   extend-shallow@2.0.1:
     dependencies:
@@ -1043,7 +1043,7 @@ snapshots:
 
   is-reference@3.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   js-yaml@3.14.1:
     dependencies:
@@ -1094,10 +1094,10 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-svelte@3.5.2(prettier@3.9.10)(svelte@5.57.2):
+  prettier-plugin-svelte@3.5.2(prettier@3.9.10)(svelte@5.57.3):
     dependencies:
       prettier: 3.9.10
-      svelte: 5.57.2
+      svelte: 5.57.3
 
   prettier@3.9.10: {}
 
@@ -1157,7 +1157,7 @@ snapshots:
 
   strip-bom-string@1.0.0: {}
 
-  svelte@5.57.2:
+  svelte@5.57.3:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.6.0
